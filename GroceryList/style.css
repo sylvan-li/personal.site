@@ -1,0 +1,50 @@
+h1{font-family:Helvetica, Arial, sans-serif;color:black;text-align:center;border-color:black;}
+
+h2{padding: 5px; text-align: center;}
+
+/*box model */
+div{
+    width:300px;
+    border: 15px pink;
+    padding:50px;
+    margin: 20px;
+    border-color:red;
+}
+
+
+body{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.listedItems{
+    font-family:Arial, Helvetica, sans-serif; color:blue;
+    border-color:blue;text-align:justify; border-width:5px;background-color: lightblue;
+}
+
+.flex-grid-thirds{
+    display:flex;
+    flex-direction:row;
+    background-color:green;
+    justify-content: space-evenly;
+}
+
+.flex-grid-thirds .col {
+    width: 32%;
+}
+
+@media (max-width:400px) {
+    .flex-grid, .flex-grid-thirds {
+        display: block;
+        .col {
+            width:100%;
+            margin: 0 0 10px 0;
+        }
+    }
+}
+
+table{
+    background-color:rgb(173, 204, 236);
+    border-color:white;
+}

@@ -1,0 +1,20 @@
+h1{
+    font-family:helvetica;
+}
+.table{
+    font-family:helvetica;
+}
+.square{
+    list-style-type:square;
+}
+
+.circle{
+    list-style-type:circle;
+}
+
+.div{
+    width:300px;
+    border:15px solid green;
+    padding:50px;
+    margin:20px;
+}

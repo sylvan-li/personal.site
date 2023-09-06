@@ -1,0 +1,8 @@
+table{
+    font-family:Arial, Helvetica, sans-serif; background-color: gray;
+    margin: 5px 5px 5px 5px; border-width:2px; border-color:hotpink; 
+}
+h2{
+    background-color: yellow; border-style:solid; border-width:2px; border-color:black; margin:auto;
+
+}

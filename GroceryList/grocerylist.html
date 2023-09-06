@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+    <title> My Grocery List</title>
+    <style>
+        h1{color:purple;font-family:Arial, Helvetica, sans-serif}
+        p {font-family:Arial;}
+        section{text-align:justify; background-color: aquamarine; border: 50px black;padding:5px}
+        .flex-example{
+            list-style:none;
+            padding:0;
+            margin: 2px; border:1px solid green;
+            border-radius:15px;
+            display:flex;
+        }
+        .flex-one{
+            order:1;
+            flex-grow: 1;
+        }
+        .flex-two{
+    order: 2;
+    flex-grow: 1;
+}
+.flex-three{
+    order: 3;
+    flex-grow: 2;
+}
+.flex-four{
+    order: 4;
+    flex-grow: 2;
+}
+.flex-five{
+    order: 5;
+    flex-grow: 1;
+}
+.flex-example li{
+  padding: 5px;
+  margin: 5px;
+  line-height: 50px;
+  text-align: center;
+}
+.straight li{
+  background-color: lightblue;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+    </style>
+</head> 
+<body>
+<h1>
+    My Very Organized Grocery list
+</h1>
+<section>
+    <h2>Pantry Items</h2>
+    <ul>
+        <li> flour </li>
+    </ol>
+</section>
+<section></h2> 
+    <ol>
+        <li>bananas</li>
+    </ol>
+</section>
+<ul class = "flex-example straight">
+    <li class="flex-one">1</li>
+    <li class="flex-three">3
+        </li></li>
+    <li class="flex-two">2</li>
+</ul>    
+</body>
